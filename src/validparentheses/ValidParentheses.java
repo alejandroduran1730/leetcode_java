@@ -49,8 +49,7 @@ public class ValidParentheses {
     }
 
     public static boolean isValid(String s) {
-        // Edge case 1:
-        // The number of characters is odd, and therefore invalid
+        // If the number of characters is odd, it means is invalid
         if (s.length() % 2 != 0) {
             return false;
         }
