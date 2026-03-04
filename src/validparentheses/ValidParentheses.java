@@ -36,7 +36,7 @@ Constraints:
 1 <= s.length <= 104
 s consists of parentheses only '()[]{}'.
 
-Solution's time complexity and space complexity:
+Solution's algorithm analysis:
 Time Complexity: O(n)
 Space Complexity: O(n)
  */

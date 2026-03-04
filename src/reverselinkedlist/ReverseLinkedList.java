@@ -1,34 +1,39 @@
 package reverselinkedlist;
 
-/**
- * Problem: #206 Reversed Linked List
- *
- * Description:
- * Given the head of a singly linked list, reverse the list, and return the reversed list.
- *
- * Example 1:
- * Input: head = [1,2,3,4,5]
- * Output: [5,4,3,2,1]
- *
- * Example 2:
- * Input: head = [1,2]
- * Output: [2,1]
- *
- * Example 3:
- * Input: head = []
- * Output: []
- *
- * Note: To test both methods, just comment one, and test the other, and vice versa.
+/*
+Problem: #206 Reversed Linked List
+
+Description:
+Given the head of a singly linked list, reverse the list, and return the reversed list.
+
+Example 1:
+Input: head = [1,2,3,4,5]
+Output: [5,4,3,2,1]
+
+Example 2:
+Input: head = [1,2]
+Output: [2,1]
+
+Example 3:
+Input: head = []
+Output: []
+
+Note: To test both methods, just comment one, and test the other, and vice versa.
+
+Solution's algorithm analysis:
+Time Complexity: O(n)
+Space Complexity: O(1)
  */
 
 public class ReverseLinkedList {
 
-    /**
-     * Solution 1:
-     * Iterative solution:
-     * This method is most common in interviews.
-     * Time Complexity: O(n)
-     * Space Complexity: O(1)
+    /*
+    Solution 1: Iterative solution
+    Note: This method is most common in interviews
+
+    Algorithm analysis:
+    Time Complexity: O(n)
+    Space Complexity: O(1)
      */
     public static ListNode reverseList (ListNode head) {
         ListNode previous = null;
@@ -43,12 +48,13 @@ public class ReverseLinkedList {
         return previous;
     }
 
-    /**
-     * Solution 2:
-     * Recursive solution:
-     * Elegant, but less common.
-     * Time Complexity: O(n)
-     * Space Complexity: O(n)
+    /*
+    Solution 2: Recursive solution
+    Note: Elegant, but less common
+
+    Algorithm analysis:
+    Time Complexity: O(n)
+    Space Complexity: O(n)
      */
 /*    public static ListNode reverseList(ListNode head) {
         // Base case: empty list or last node

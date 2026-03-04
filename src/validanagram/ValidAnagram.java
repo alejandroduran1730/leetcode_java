@@ -19,7 +19,7 @@ Constraints:
 1 <= s.length, t.length <= 5 * 10^4
 s and t consist of lowercase English letters.
 
-Solution's time complexity and space complexity:
+Solution's algorithm analysis:
 Time Complexity: O(n log n)
 Space Complexity: O(n)
  */
