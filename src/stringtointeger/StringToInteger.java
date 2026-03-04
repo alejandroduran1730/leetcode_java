@@ -73,7 +73,8 @@ Space Complexity: O(1)
 
 public class StringToInteger {
     public static void main(String[] args) {
-
+        String s = "-987 and words";
+        System.out.println(myAtoi(s));
     }
 
     public static int myAtoi(String s) {
@@ -108,7 +109,7 @@ public class StringToInteger {
 
             // Convert character to integer digit
             // Note: Characters in Java are stored using ASCII (or Unicode, which preserves ASCII values)
-            //Character - ASCII Value
+            // Character - ASCII Value
             // '0' - 48
             // ...
             // '9' - 57
